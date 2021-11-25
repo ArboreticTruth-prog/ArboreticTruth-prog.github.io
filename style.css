@@ -1,0 +1,21 @@
+.game_board {
+	display: flex;
+	flex-direction: column; 
+	}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+	margin: 5px;
+}
+
+.user_area {
+	display: none;
+	
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
