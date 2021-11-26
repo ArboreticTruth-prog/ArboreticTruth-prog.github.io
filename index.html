@@ -45,8 +45,22 @@
 		<div class = "user_area" id = "user_area">
 			<input id = "user_input" value = "" onkeyup = "player(event)">
 		</div>
-		<input id = "user_name" value = "User Name Here">
-		<input id = "pass" value = "Password Here" onkeyup = "user_loggingIn(event)">
+
+		<div class = "login_area" id = "login_area">
+			<div> Logging In?</div>
+		<input id = "user_name" value = "User Name Here" style = "width: 150px;">
+		<input id = "pass" value = "Password Here" style = "width: 150px;" onkeyup = "user_loggingIn(event)">
+		</div>
+
+		<div class = "signup_area" id = "signup_area">
+			<div> Signing up? </div>
+			<input id = "sign_up_email" value = "Email" style = "width: 150px;">
+			<input id = "sign_up_username" value = "Username" style = "width: 150px;">
+			<input id = "sign_up_password" value = "Password"style = "width: 150px;">
+			<input id = "sign_up_password2" value = "Confirm Password"style = "width: 150px;">
+			<input type="button" id = "signup_button" value = "Submit" onclick="signUp()">
+		</div> 
+
 		</center>
 		
 
