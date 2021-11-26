@@ -13,9 +13,29 @@
 
 .user_area {
 	display: none;
-	
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
+}
+
+.login_area {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border-style: ridge;
+	width: 160px;
+}
+.signup_area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border-style: ridge;
+	width: 160px;
+	
 }
